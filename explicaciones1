@@ -1,0 +1,6 @@
+Trabajamos sobre una maquina virtual con ubuntu
+
+- En breadth_first nos quedamos sin RAM. Aumenta de manera rapida.
+
+- En depth_first nos quedamos sin memoria RAM tambien pero en un tiempo mas prolongado.
+
