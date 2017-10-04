@@ -114,8 +114,9 @@ class BombeRobotProblem(SearchProblem):
 
         #si alguna aparato exploto
         for aparato in aparatos:
-            if aparato[1] > 500:
-                return []
+            if aparato[1] != None:
+                if aparato[1] > 500:
+                    return []
 
         robot = stateList[1]
         available_actions = []
