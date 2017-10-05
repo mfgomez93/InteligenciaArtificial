@@ -269,7 +269,7 @@ if __name__ == '__main__':
     #result = greedy(BombeRobotProblem(INICIAL), graph_search=True, viewer=visor)
     #result = astar(BombeRobotProblem(INICIAL), graph_search=True, viewer=visor)
 
-    #print result
+    #print (result)
     print ('CAMINO COMPLETO')
     print (result.path())
     print ('LARGO CAMINO:', len(result.path()))
