@@ -224,7 +224,7 @@ class BombeRobotProblem(SearchProblem):
 def resolver(metodo_busqueda, posiciones_aparatos):
     visor = BaseViewer()
 
-    posiciones_aparatos = [(1,2),(2,0),(3,0)]
+    #posiciones_aparatos = [(1,2),(2,0),(3,0)]
 
     posapar = []
 
